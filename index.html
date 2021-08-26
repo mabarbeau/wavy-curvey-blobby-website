@@ -142,7 +142,7 @@
   <script>
     let foo = []
     for (let index = 1; index <= 10; index++) {
-      const duration = (((index - 5) ** 2) + 3) * 1000
+      const duration = ((((index - 5) ** 2) / 3 ) + 3) * 1000
       KUTE.fromTo(
         `#wave-${index}-from`,
         { path: `#wave-${index}-from` },
